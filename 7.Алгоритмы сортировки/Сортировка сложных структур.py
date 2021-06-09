@@ -31,6 +31,7 @@ print(res_2)
 """
 Но можно и не писать функцию, достаточно ипортировать attrgetter и через него в key передать возраст
 """
+print('*'*50)
 from operator import attrgetter
 
 res_2 = sorted(guys,key=attrgetter('age'))
